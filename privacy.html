@@ -98,6 +98,14 @@
             margin: 20px 0;
             border-left: 4px solid #f59e0b;
         }
+
+        .revenuecat-box {
+            background-color: #f5f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #7c3aed;
+        }
         
         footer {
             margin-top: 40px;
@@ -107,13 +115,22 @@
             color: #6b7280;
             font-size: 0.9em;
         }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: November 11, 2025</p>
+            <p class="last-updated">Last Updated: February 22, 2026</p>
         </header>
 
         <div class="intro">
@@ -142,7 +159,16 @@
                 <li>Device information (model, operating system, app version)</li>
             </ul>
 
-            <p class="highlight"><strong>Note:</strong> We do not collect sensitive financial or bank information directly.</p>
+            <h3>Payment & Subscription Information</h3>
+            <p>For paid features, we use <strong>RevenueCat</strong> to manage in-app purchases and subscriptions. RevenueCat may collect:</p>
+            <ul>
+                <li>Purchase history and subscription status</li>
+                <li>App user ID and device identifiers</li>
+                <li>Transaction IDs from the App Store or Google Play</li>
+            </ul>
+            <div class="highlight">
+                <strong>Note:</strong> We do not directly collect or store your payment card details. All payment transactions are processed securely by Apple App Store or Google Play. RevenueCat only receives transaction metadata, not your full payment information.
+            </div>
         </section>
 
         <section>
@@ -152,6 +178,8 @@
                 <li>Create and manage your user account</li>
                 <li>Help fleet owners manage their vehicles and drivers</li>
                 <li>Help drivers connect with fleets and log duties</li>
+                <li>Manage and verify your subscription or in-app purchase status</li>
+                <li>Unlock paid features based on your active subscription</li>
                 <li>Maintain app performance and improve user experience</li>
                 <li>Communicate updates, support, and service notifications</li>
             </ul>
@@ -164,51 +192,85 @@
         </section>
 
         <section>
-            <h2>4. Sharing of Information</h2>
+            <h2>4. Third-Party Services</h2>
+            <p>We use the following third-party services to operate Zero Fleets:</p>
+
+            <h3>Firebase (Google)</h3>
+            <p>Used for authentication, database storage, and file storage. Firebase processes data in accordance with Google's privacy standards. Learn more at <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>.</p>
+
+            <h3>RevenueCat</h3>
+            <div class="revenuecat-box">
+                <p>We use <strong>RevenueCat</strong> to manage in-app subscriptions and purchases. RevenueCat acts as a data processor on our behalf and may collect the following to deliver subscription management services:</p>
+                <ul>
+                    <li>App user ID and anonymous device identifiers</li>
+                    <li>Purchase and subscription transaction data from Apple or Google</li>
+                    <li>Subscription status, entitlements, and renewal information</li>
+                </ul>
+                <p>RevenueCat does not receive your name, payment card details, or government-issued documents. Their data handling is governed by their own Privacy Policy, available at <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
+            </div>
+
+            <h3>Apple App Store / Google Play</h3>
+            <p>All payment transactions for in-app purchases and subscriptions are processed by Apple or Google directly. We do not have access to your payment card or billing information. Their respective privacy policies govern how payment data is handled.</p>
+        </section>
+
+        <section>
+            <h2>5. Sharing of Information</h2>
             <p>We may share your data only in the following cases:</p>
             <ul>
                 <li>With fleet owners or drivers as part of app functionality (e.g., when connecting a driver with a fleet)</li>
+                <li>With RevenueCat to validate and manage your subscription entitlements</li>
                 <li>When required by law enforcement or government authorities</li>
                 <li>With service providers (like Firebase) for technical support and data storage</li>
             </ul>
         </section>
 
         <section>
-            <h2>5. Security</h2>
-            <p>We take all reasonable steps to protect your data using modern security practices. However, no online system is 100% secure, and we cannot guarantee absolute protection.</p>
-        </section>
-
-        <section>
-            <h2>6. Your Rights</h2>
-            <p>You can:</p>
+            <h2>6. In-App Purchases & Subscriptions</h2>
+            <p>Zero Fleets offers paid features through subscriptions and one-time purchases managed via RevenueCat. By making a purchase, you agree to the terms of your respective app store (Apple App Store or Google Play Store).</p>
             <ul>
-                <li>Access and update your information within the app</li>
-                <li>Request data deletion from the profile or by emailing <strong>fazilnazkolambil@gmail.com</strong></li>
-                <li>Withdraw consent or close your account at any time</li>
+                <li>Subscriptions automatically renew unless cancelled before the renewal date</li>
+                <li>You can manage or cancel subscriptions through your App Store or Google Play account settings</li>
+                <li>Refunds are handled by Apple or Google in accordance with their respective policies</li>
+                <li>Access to paid features will continue until the end of the current billing period after cancellation</li>
             </ul>
         </section>
 
         <section>
-            <h2>7. Children's Privacy</h2>
+            <h2>7. Security</h2>
+            <p>We take all reasonable steps to protect your data using modern security practices. However, no online system is 100% secure, and we cannot guarantee absolute protection.</p>
+        </section>
+
+        <section>
+            <h2>8. Your Rights</h2>
+            <p>You can:</p>
+            <ul>
+                <li>Access and update your information within the app</li>
+                <li>Request data deletion by emailing <strong>zerofleets.in@gmail.com</strong></li>
+                <li>Withdraw consent or close your account at any time</li>
+                <li>Request information about what personal data we hold about you</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Children's Privacy</h2>
             <p>Zero Fleets is not intended for children under 18 years of age. We do not knowingly collect data from minors.</p>
         </section>
 
         <section>
-            <h2>8. Changes to This Policy</h2>
+            <h2>10. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this page. Continued use of the app means you accept the revised policy.</p>
         </section>
 
         <section>
-            
             <div class="contact-info">
-                <p>If you have any questions or complaints about this Privacy Policy, contact:</p>
-                <p>📧 Email: <a href="mailto:fazilnazkolambil@gmail.com">fazilnazkolambil@gmail.com</a></p>
-                <p>📞 Phone: +91 94870 22519</p>
+                <p>If you have any questions or complaints about this Privacy Policy, please contact us:</p>
+                <p>📧 Email: <a href="mailto:zerofleets.in@gmail.com">zerofleets.in@gmail.com</a></p>
+                <p>⏱️ We typically respond within 1–2 business days.</p>
             </div>
         </section>
 
         <footer>
-            <p>&copy; 2025 Zero Fleets. All rights reserved.</p>
+            <p>&copy; 2026 Zero Fleets by Mobil80 Solutions Pvt. Ltd. All rights reserved.</p>
         </footer>
     </div>
 </body>
